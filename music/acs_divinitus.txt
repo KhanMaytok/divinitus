@@ -1,0 +1,14 @@
+song = {
+	name = "divinitus.ogg"
+	song_name = "Divinitus by Jeff Van Dick"
+	
+	chance = {
+        factor = 5
+		modifier = {
+			factor = 0
+			NOT = {	culture_group = latin }
+			NOT = {	culture_group = iberian }
+            NOT = { culture = greek }
+		}	
+	}
+}
