@@ -4,11 +4,20 @@ song = {
 	
 	chance = {
         factor = 5
+	}	
+	volume = 0.49
+}
+
+song = {
+	name = "mayhem.ogg"
+	song_name = "Rome Total War Soundtrack - Mayhem"
+	
+	chance = {
+        factor = 1
 		modifier = {
-			factor = 0
-			NOT = {	culture_group = latin }
-			NOT = {	culture_group = iberian }
-            NOT = { culture = greek }
-		}	
+			factor = 7
+			in_battle = yes
+		}
 	}
+	volume = 0.49
 }
